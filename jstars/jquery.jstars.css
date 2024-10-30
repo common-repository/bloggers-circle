@@ -1,0 +1,82 @@
+/*             styles for the star rater                */
+div.star-empty,div.star-on{
+width:20px;
+height:20px;
+display:inline-block;
+background:url(star_rating.gif) top left no-repeat;
+}
+div.star-on{
+background-position: bottom left;
+}
+
+
+ul.star-rating{
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+	width: 100px;
+	height: 20px;
+	position: relative;
+	background: url(star_rating.gif) top left repeat-x;
+}
+ul.star-rating li{
+	padding:0px;
+	margin:0px;
+	/*\*/
+	float: left;
+	/* */
+}
+ul.star-rating li a{
+	display:block;
+	width:20px;
+	height: 20px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+ul.star-rating li a:hover,
+ul.star-rating li.selected a{
+	background: url(star_rating.gif) left bottom;
+	z-index: 1;
+	left: 0px;
+}
+ul.star-rating a.stars1{
+	left: 0px;
+}
+ul.star-rating a.stars1:hover,
+ul.star-rating li.selected a.stars1{
+	width:20px;
+}
+ul.star-rating a.stars2{
+	left:20px;
+}
+ul.star-rating a.stars2:hover,
+ul.star-rating li.selected a.stars2{
+	width: 40px;
+}
+ul.star-rating a.stars3{
+	left: 40px;
+}
+ul.star-rating a.stars3:hover,
+ul.star-rating li.selected a.stars3{
+	width: 60px;
+}
+
+ul.star-rating a.stars4{
+	left: 60px;
+}
+ul.star-rating a.stars4:hover,
+ul.star-rating li.selected a.stars4{
+	width: 80px;
+}
+ul.star-rating a.stars5{
+	left: 80px;
+}
+ul.star-rating a.stars5:hover,
+ul.star-rating li.selected a.stars5{
+	width: 100px;
+}
+
+

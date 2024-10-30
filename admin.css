@@ -1,0 +1,58 @@
+/* 
+    Document   : admin.css
+    Created on : Nov 29, 2010, 9:11:41 PM
+    Author     : justin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ #bloggers_cirlce_section div.misc-pub-section{
+        line-height: 1.5em;
+        padding: 10px 6px;
+}
+
+#dialog-bloggers_cirlce-rateReview blockquote,
+#dialog-bloggers_cirlce-sumbit blockquote{
+	border:1px solid black;
+	background-color:#DDDDDD;
+	font-style: italic;
+	padding:1em;
+}
+
+#dialog-bloggers_cirlce-rateReview fieldset,
+#dialog-bloggers_cirlce-sumbit fieldset{
+	padding:10px;
+	border:1px double #555555;
+}
+
+#dialog-bloggers_cirlce-displayReview > div.displayReview{
+background-color:#DDDDDD;
+border:1px solid black;
+padding:1em;
+}
+
+ol.reviews span.new{
+  display:none;
+}
+ol.reviews li.new span.new{
+  display:inline;
+  color:red;
+  font-weight: bold;
+}
+
+.bloggers_circle_dialog{
+  display:none;
+}
+.bloggers_circle_dialog blockquote{
+  background-color: lightGrey;
+  padding: .25em 1em;
+}
+.bloggers_circle_dialog fieldset{
+  border:1px solid black;
+  padding: .25em 1em;
+}
